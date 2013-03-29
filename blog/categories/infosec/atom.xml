@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: infosec | Lentigo]]></title>
+  <link href="http://spottybones.github.com/lentigo_site/blog/categories/infosec/atom.xml" rel="self"/>
+  <link href="http://spottybones.github.com/lentigo_site/"/>
+  <updated>2013-03-29T13:56:09-04:00</updated>
+  <id>http://spottybones.github.com/lentigo_site/</id>
+  <author>
+    <name><![CDATA[Lentigo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How long will it take to guess your password?]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/18"/>
+    <updated>2007-03-04T21:19:23-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/how-long-will-it-take-to-guess-your-password</id>
+    <content type="html"><![CDATA[<p>I came across Bruce Schneier's article on <a href="http://www.schneier.com/blog/archives/2007/01/choosing_secure.html">choosing secure passwords</a> some time ago but just reread it again.  I find the description of the efforts that <a href="http://accessdata.com/">AccessData's</a> PRTK goes through to guess a password fascinating.  Once of the things they teach in security classes is that brute force attacks will always work; the only protection is in the amount of time it will take to succeed.  Throw a little intelligence into the guessing and that amount of time can get very short!</p>
+]]></content>
+  </entry>
+  
+</feed>

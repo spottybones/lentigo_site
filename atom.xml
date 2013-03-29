@@ -2,15 +2,301 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Lentigo]]></title>
-  <link href="http://lentigo.net/atom.xml" rel="self"/>
-  <link href="http://lentigo.net/"/>
-  <updated>2013-03-29T11:31:05-04:00</updated>
-  <id>http://lentigo.net/</id>
+  <link href="http://spottybones.github.com/lentigo_site/atom.xml" rel="self"/>
+  <link href="http://spottybones.github.com/lentigo_site/"/>
+  <updated>2013-03-29T13:56:09-04:00</updated>
+  <id>http://spottybones.github.com/lentigo_site/</id>
   <author>
     <name><![CDATA[Lentigo]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fix ssh-agent after installing Apple's 2008-005 security update]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/25"/>
+    <updated>2008-08-10T13:15:19-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/fix-ssh-after-2008-05-update</id>
+    <content type="html"><![CDATA[<p>After installing Apple&#8217;s 2008-005 security update on my Leopard machines I found that ssh-agent was no longer being started on system boot.  I use <code>ssh</code> with key-based authentication for lots of things and not having it automatically loaded and communicating with my keychain was a real pain.  After monkeying around with lots of ways to get it going again I found the following command, entered in a terminal and followed by a reboot, did the trick:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo launchctl load -w /System/Library/LaunchAgents/org.openbsd.ssh-agent.plist</span></code></pre></td></tr></table></div></figure>
+
+
+<p>On OS X all roads lead to launchd.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hmm, this place is dead...]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/24"/>
+    <updated>2008-02-02T11:26:36-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/hmm-this-place-is-dead</id>
+    <content type="html"><![CDATA[<p>Okay, so I&#8217;ve not been good at keeping up here.  I do plan on writing up more
+stuff soon, though.  I&#8217;ve been studying for my GIAC GSEC re-cert and have come
+across a few ideas for things to research and write about after I take the
+test.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Holiday Shopping Almost Done]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/23"/>
+    <updated>2007-12-22T13:53:38-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/holiday-shopping-almost-done</id>
+    <content type="html"><![CDATA[<p>December 22nd and most of my shopping is done.  I hate doing this stuff at the
+last minute but I do it every year so I must not hate it enough.</p>
+
+<p>I had an interesting experience last night while shopping.  Early in the
+evening I received an TXT message from my one of my monitoring sites
+indicating that our production server was down.  After having great
+experiences with Debian servers over the last couple of years this box had
+experienced some heartburn from a recent kernel update and I figured the burn
+might have returned.  I was not notified of the site being down again (the
+monitoring script runs every 15 mins) so, after 20 minutes, I figured I was in
+good shape or my monitoring script &#8211; recently rewritten &#8211; was broken.  Ugh.
+As luck would have it there&#8217;s an Apple Store in the mall.  I went in, found a
+row of lonely looking iPod Touches, grabbed one, and called up our
+<a href="http://www.publicknowledge.org">site</a>. The Touch was already connected to the
+store&#8217;s Wi-Fi and our front page popped up in just a few seconds.  I loaded a
+few other pages on the site to make sure everything was hunky-dory, made sure
+to leave PK&#8217;s website set as the home page for that Touch, and continued on my
+way.  Thanks the the Apple Store I was able to get some network monitoring and
+guerrilla marketing in as well as shopping.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ahh, Back...]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/22"/>
+    <updated>2007-12-02T23:32:20-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/ahh-back</id>
+    <content type="html"><![CDATA[<p>And newly moved from my old MediaTemple GS back to my trusty <a href="http://www.linode.com">Linode</a>.  I like the Linode much better.  Now to get to work on a theme for this site so these bi-annual posts will look nicer.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Summer language studies in Arlington]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/21"/>
+    <updated>2007-04-10T20:07:53-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/summer-language-studies-in-arlington</id>
+    <content type="html"><![CDATA[<p>Arlington County Public Schools will offer beginning Arabic and Chinese
+language courses <a href="http://www.arlington.k12.va.us/SCR/news/0607/20070410_summer_language.shtml">this summer</a>.  We could have more Arabic speakers in our high
+school next year than the either the US Dept of State or the FBI.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[April 9th, Evening]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/20"/>
+    <updated>2007-04-09T22:32:35-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/april-9th</id>
+    <content type="html"><![CDATA[<p>Some wins and losses this evening.  On the losing side was my last SANS class.
+I&#8217;ve been taking their SANS+S course for preparation to take the CISSP exam.
+This particular class is taught on-line using a Java-based classroom product
+called Elluminate.  It&#8217;s always taken a bit of work to start it up on my
+PowerBook and I generally expect to have to kill and restart it a few times
+before it gets a good connection back to the mothership.  Tonight was worse
+than usual, requiring a reboot &#8211; thankfully fast on a Mac &#8211; and hunting down
+and deleting old Java Webstart cache files.   By the time I got it sorted and
+got into my class it was already 30 minutes in and too late to get into the
+flow.  I had a lot I wanted to get done this evening anyway so I bagged the
+class; I can listen to a recording later and get caught up.   I&#8217;m in no wild
+hurry to get my CISSP so will be spending a couple months studying up and take
+the test this summer.  I already hold a current SANS GSEC cert and the subject
+matter isn&#8217;t wildly different.</p>
+
+<p>On the win side I think we&#8217;ve finally gotten Chris&#8217;
+<a href="http://www.chrisabraham.com">blog</a> moved from MediaTemple to a dedicated
+server.  It&#8217;s a largish site that, was getting killed by performance problems
+with the (mt) GridServer system.   I think the full site &#8220;rebuild&#8221; is just
+about done so he should be back in business in no time.  I hope it finishes
+soon, I&#8217;m tired and want to sleep.</p>
+
+<p>The <a href="http://www.mediatemple.net/webhosting/gs/">gs</a> sounds good in theory, but
+in practice it&#8217;s been a disappointment and I think needs another six months of
+testing and tweaks before it&#8217;ll be ready for prime time.  I won&#8217;t be around
+then, I&#8217;m going to be moving this site back to my trusty
+<a href="http://www.linode.com">Linode</a> as soon as I get the time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Collectors of Hip]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/19"/>
+    <updated>2007-03-07T13:45:26-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/the-collectors-of-hip</id>
+    <content type="html"><![CDATA[<p>Hope just sent me a <a href="http://www.loc.gov/rr/record/nrpb/registry/">link</a> to the LOC&#8217;s Full National Recording Registry of the National Recording Preservation Board.  I think the contents are as hip as one can get and I&#8217;m going to see how many of these I can find on <a href="http://www.rhapsody.com">Rhapsody</a> and build a few choice playlists.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How long will it take to guess your password?]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/18"/>
+    <updated>2007-03-04T21:19:23-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/how-long-will-it-take-to-guess-your-password</id>
+    <content type="html"><![CDATA[<p>I came across Bruce Schneier&#8217;s article on <a href="http://www.schneier.com/blog/archives/2007/01/choosing_secure.html">choosing secure passwords</a> some time ago but just reread it again.  I find the description of the efforts that <a href="http://accessdata.com/">AccessData&#8217;s</a> PRTK goes through to guess a password fascinating.  Once of the things they teach in security classes is that brute force attacks will always work; the only protection is in the amount of time it will take to succeed.  Throw a little intelligence into the guessing and that amount of time can get very short!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My latest toy - the Nokia N800]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/16"/>
+    <updated>2007-02-25T23:41:35-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/my-latest-toy-the-nokia-n800</id>
+    <content type="html"><![CDATA[<p>I picked up a new toy for myself for this last holiday season, a <a href="http://www.nokia.com/n800">Nokia N800 Internet Tablet</a>.  It&#8217;s very cool.  I bought it mainly to listen to streaming media and to keep up with e-mail and RSS feeds when not at my computer &#8211; which so far means lying in bed.</p>
+
+<p>The experience has been pretty good so far.  I&#8217;ve moved all off my personal e-mail and feed reading to Google services, which offer plain XHTML interfaces if you know how to find them, and they work really well.  Actually Google calendar doesn&#8217;t work at all, which is a bummer, but I&#8217;ll see if I can find a N800 iCal reader and subscribe to my calendars there.</p>
+
+<p>Media has had its ups and downs,
+but I&#8217;ll have to write about that
+another time, too tired now.  This
+post will be a test of using the tablet
+for blogging &#8211; the whole  thing has
+been written using the on-screen
+keyboard.  It will take some getting
+used too, but it&#8217;s quite workable so
+far.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Upgraded to Drupal 5.1]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/15"/>
+    <updated>2007-02-25T22:45:05-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/upgraded-to-drupal-5-dot-1</id>
+    <content type="html"><![CDATA[<p>As part one of attempting to get back to blogging at this site I&#8217;ve upgraded it from Drupal 4.7 to Drupal 5.</p>
+
+<p>The old theme was quite ugly so I switched the system default to Drupal&#8217;s Garland theme and changed the colors to that sort of mix of sunburn and suntan than <strong>Lentigo</strong> suggests!  This looks better than the themes I&#8217;ve come up with in the past so I think I&#8217;ll stick with it.</p>
+
+<p>This will have to be it for my first update in almost a year as my battery &#8211; both computer and body &#8211; are about to run out.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Trusted Computing]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/13"/>
+    <updated>2006-04-01T17:10:47-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/trusted-computing</id>
+    <content type="html"><![CDATA[<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/K1H7omJW4TI"></param><embed src="http://www.youtube.com/v/K1H7omJW4TI" type="application/x-shockwave-flash" width="425" height="350"></embed></object>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dia de los Muertos]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/12"/>
+    <updated>2005-11-11T12:03:05-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/dia-de-los-muertos</id>
+    <content type="html"><![CDATA[<p>We put together the following altar to celebrate family and friends passed&#8230;</p>
+
+<p><img src="http://www.lentigo.net/files/2005-dia-de-los-muertos.jpg" width="500" height="375" align="middle" alt="Our Dia de los Muertos Altar" title="Our Dia de los Muertos Altar" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Scarier than The Master...]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/10"/>
+    <updated>2005-10-21T18:12:19-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/scarier-than-the-master-dot-dot-dot</id>
+    <content type="html"><![CDATA[<p>
+The clueless-ness of big content owners is just amazing&#8230;
+</p>
+
+
+<blockquote>
+<a href="http://www.boingboing.net/2005/10/20/fox_shuts_down_buffy.html">Fox shuts down Buffy Hallowe&#8217;en musical despite Whedon&#8217;s protests</a>:
+<br /><strong>Cory Doctorow</strong>: Fox has shuit down a plan to perform a fan version of the Buffy musical episode, Once More with Feeling, even though creator Joss Whedon has asked them not to. Jason Schultz has written a great analysis of this <a href="http://lawgeek.typepad.com/lawgeek/2005/10/fox_lawyers_cd_.html" target="_blank" title="Link outside of this blog" class="blines3 title=">here</a>. 
+<blockquote>
+Is this the kind of copyright policy we want? Those are tougher questions.  Just as artists are an engine for creativity in our culture, so are fans.  An artist on their own can make a work of art, but only fans can make it mean something in our society.  Fans take art and translate it into culture.  They invest in it, obsess over it, share it, and spread it to others.  They turn it from an isolated item into a means of communication.  (For more on this, see danah&#8217;s posts here and here where she breaks it down more eloquently).
+</blockquote><blockquote>
+But where is the recognition of this reality in copyright? Well, before the digital age, it was often in the idea that copyright was a public right and fandom was a private series of acts.  Copyright would control public distribution of works and fans would collect them and share them and discuss them in private.  More importantly, they would do so without making &#8220;copies&#8221; of them; instead, they would trade physical goods and have verbal conversations.  Some would make costumes or their own art based on the subject matter, but those were generally kept private or only exhibited at limited forums like Comic Cons.
+</blockquote></blockquote>
+
+
+<p>
+Do the marketing departments of Fox, Disney, etc, have any say over the actions of their attack-lawyers?  Do these organizations even have marketing departments any more?  I remember taking marketing classes way back in college but I must have missed the day where we were taught that <strong>attacking one&#8217;s best customers</strong> is an effective sales driver.
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What does your printer say about you?]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/9"/>
+    <updated>2005-10-17T13:45:19-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/what-does-your-printer-say-about-you</id>
+    <content type="html"><![CDATA[<p>
+Here&#8217;s something to be aware of:
+</p>
+
+
+<blockquote>
+<a href="http://www.boingboing.net/2005/10/17/eff_cracks_hidden_sn.html">EFF cracks hidden snitch codes in color laser prints</a>:
+<br />Many color laser printers hide information about your printer&#8217;s serial number and the date and time of your print job in every job you print. It&#8217;s believed that this is done to get your equipment to incriminate you without your knowledge. Now EFF has decoded the information-hiding scheme on the Xerox Docucolor series, by getting EFF supporters to print out pages from their printers and mail them to our researchers, who examined them under magnification and special light and cracked the code.
+</blockquote>
+
+
+<p>
+Whether or not you care what your printer (<strong>your</strong> property) is telling others, it&#8217;s important to know that it <strong>is</strong> telling something to somebody if they want to look hard enough!
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Stuff I Like]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/8"/>
+    <updated>2005-10-15T18:53:00-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/stuff-i-like</id>
+    <content type="html"><![CDATA[<p>
+Now that I spend about 90 minutes on the train each day I&#8217;ve been listening to a lot of podcasts during my commute.  My favorite, by far, is the <a href="http://www.evilgeniuschronicles.org/wordpress/">Evil Genius Chronicles</a>.  Good stories, excellent music, and great attitude, Dave rocks!  If anybody actually reads this page they should go there, listen to a few podcasts, and buy the <a href="http://www.evilgeniuschronicles.org/stuff/">stuff package</a>.
+</p>
+
+
+<!--more-->
+
+
+<p>
+My Powerbook.  After a couple of decades of using Windows and Linux laptops I switched about six months ago.  I was never emotionally attached to my Windows boxen.   I like Linux on the server side (love Debian after years of running Redhat based servers) but desktop Linux was nicely divided between love and hate.  Loved the freedom, didn&#8217;t love so much the constant tweaking required to get multi-media and power management stuff working, and reworking after each distro upgrade.  I love my Mac.  It&#8217;s fast, beautiful, and just works.
+</p>
+
+
+<p>
+Drupal.  After developing sites using the proprietary <a href="http://www.caucus.com">Caucus</a> platform for, um, 15 years, and then spending a couple with <a href="http://www.plone.org">Plone</a>, I&#8217;m really liking Drupal as a base for web apps.  Plone was fun for awhile but the weight of the framework has gotten to be too much for the projects I build.  Drupal has been a refreshing change.
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Back to Ecto]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/7"/>
+    <updated>2005-09-23T07:30:00-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/back-to-ecto</id>
+    <content type="html"><![CDATA[<p>Well, the test with MarsEdit didn&#8217;t go very well so we&#8217;re back to using Ecto for blogging. It seems to integrate much better with other Mac apps so I&#8217;ll just need to learn how to sort out its quirks.</p>
+
+<p>BTW, I&#8217;m trying to get into the habit of blogging more, really!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hope, Aaron and Jeffrey on KDH]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/5"/>
+    <updated>2005-08-15T05:20:00-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/hope</id>
+    <content type="html"><![CDATA[<p>Here&#8217;s a picture of Hope, Aaron and Jeffrey on the beach in Kill Devil Hills, NC. This was taken on our last beach day of our 2005 summer vacation. &#8230;s.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Ecto]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/4"/>
+    <updated>2005-08-14T09:08:00-04:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/node-slash-4</id>
+    <content type="html"><![CDATA[<p>This is a test entry made with Ecto. I’m attaching a picture of the family taken toward the end of our recent OBX vacation to see how it posts.</p>
+]]></content>
+  </entry>
   
 </feed>

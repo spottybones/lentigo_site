@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://lentigo.net/sitemap.xml 
+Sitemap: http://spottybones.github.com/lentigo_site/sitemap.xml 

@@ -9,7 +9,7 @@
   <meta name="author" content="Lentigo">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="After installing Apple&#8217;s 2008-005 security update on my Leopard machines I found that ssh-agent was no longer being started on system boot. I &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://lentigo.net">
+  <link rel="canonical" href="http://spottybones.github.com/lentigo_site">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Lentigo" type="application/atom+xml">
@@ -50,12 +50,13 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:lentigo.net" />
+    <input type="hidden" name="q" value="site:spottybones.github.com/lentigo_site" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
   
 <ul class="main-navigation">
+  <li><a href="/about">About</a></li>
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
@@ -66,7 +67,440 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/25">Fix ssh-agent after installing Apple&#8217;s 2008-005 security update</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-08-10T13:15:19-04:00" pubdate data-updated="true">Aug 10<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>After installing Apple&#8217;s 2008-005 security update on my Leopard machines I found that ssh-agent was no longer being started on system boot.  I use <code>ssh</code> with key-based authentication for lots of things and not having it automatically loaded and communicating with my keychain was a real pain.  After monkeying around with lots of ways to get it going again I found the following command, entered in a terminal and followed by a reboot, did the trick:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo launchctl load -w /System/Library/LaunchAgents/org.openbsd.ssh-agent.plist</span></code></pre></td></tr></table></div></figure>
+
+
+<p>On OS X all roads lead to launchd.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/24">Hmm, this place is dead&#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-02T11:26:36-05:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Okay, so I&#8217;ve not been good at keeping up here.  I do plan on writing up more
+stuff soon, though.  I&#8217;ve been studying for my GIAC GSEC re-cert and have come
+across a few ideas for things to research and write about after I take the
+test.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/23">Holiday Shopping Almost Done</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-12-22T13:53:38-05:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>December 22nd and most of my shopping is done.  I hate doing this stuff at the
+last minute but I do it every year so I must not hate it enough.</p>
+
+<p>I had an interesting experience last night while shopping.  Early in the
+evening I received an TXT message from my one of my monitoring sites
+indicating that our production server was down.  After having great
+experiences with Debian servers over the last couple of years this box had
+experienced some heartburn from a recent kernel update and I figured the burn
+might have returned.  I was not notified of the site being down again (the
+monitoring script runs every 15 mins) so, after 20 minutes, I figured I was in
+good shape or my monitoring script &#8211; recently rewritten &#8211; was broken.  Ugh.
+As luck would have it there&#8217;s an Apple Store in the mall.  I went in, found a
+row of lonely looking iPod Touches, grabbed one, and called up our
+<a href="http://www.publicknowledge.org">site</a>. The Touch was already connected to the
+store&#8217;s Wi-Fi and our front page popped up in just a few seconds.  I loaded a
+few other pages on the site to make sure everything was hunky-dory, made sure
+to leave PK&#8217;s website set as the home page for that Touch, and continued on my
+way.  Thanks the the Apple Store I was able to get some network monitoring and
+guerrilla marketing in as well as shopping.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/22">Ahh, Back&#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-12-02T23:32:20-05:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>And newly moved from my old MediaTemple GS back to my trusty <a href="http://www.linode.com">Linode</a>.  I like the Linode much better.  Now to get to work on a theme for this site so these bi-annual posts will look nicer.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/21">Summer language studies in Arlington</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-04-10T20:07:53-04:00" pubdate data-updated="true">Apr 10<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Arlington County Public Schools will offer beginning Arabic and Chinese
+language courses <a href="http://www.arlington.k12.va.us/SCR/news/0607/20070410_summer_language.shtml">this summer</a>.  We could have more Arabic speakers in our high
+school next year than the either the US Dept of State or the FBI.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/20">April 9th, Evening</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-04-09T22:32:35-04:00" pubdate data-updated="true">Apr 9<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Some wins and losses this evening.  On the losing side was my last SANS class.
+I&#8217;ve been taking their SANS+S course for preparation to take the CISSP exam.
+This particular class is taught on-line using a Java-based classroom product
+called Elluminate.  It&#8217;s always taken a bit of work to start it up on my
+PowerBook and I generally expect to have to kill and restart it a few times
+before it gets a good connection back to the mothership.  Tonight was worse
+than usual, requiring a reboot &#8211; thankfully fast on a Mac &#8211; and hunting down
+and deleting old Java Webstart cache files.   By the time I got it sorted and
+got into my class it was already 30 minutes in and too late to get into the
+flow.  I had a lot I wanted to get done this evening anyway so I bagged the
+class; I can listen to a recording later and get caught up.   I&#8217;m in no wild
+hurry to get my CISSP so will be spending a couple months studying up and take
+the test this summer.  I already hold a current SANS GSEC cert and the subject
+matter isn&#8217;t wildly different.</p>
+
+<p>On the win side I think we&#8217;ve finally gotten Chris&#8217;
+<a href="http://www.chrisabraham.com">blog</a> moved from MediaTemple to a dedicated
+server.  It&#8217;s a largish site that, was getting killed by performance problems
+with the (mt) GridServer system.   I think the full site &#8220;rebuild&#8221; is just
+about done so he should be back in business in no time.  I hope it finishes
+soon, I&#8217;m tired and want to sleep.</p>
+
+<p>The <a href="http://www.mediatemple.net/webhosting/gs/">gs</a> sounds good in theory, but
+in practice it&#8217;s been a disappointment and I think needs another six months of
+testing and tweaks before it&#8217;ll be ready for prime time.  I won&#8217;t be around
+then, I&#8217;m going to be moving this site back to my trusty
+<a href="http://www.linode.com">Linode</a> as soon as I get the time.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/19">The Collectors of Hip</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-03-07T13:45:26-05:00" pubdate data-updated="true">Mar 7<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hope just sent me a <a href="http://www.loc.gov/rr/record/nrpb/registry/">link</a> to the LOC&#8217;s Full National Recording Registry of the National Recording Preservation Board.  I think the contents are as hip as one can get and I&#8217;m going to see how many of these I can find on <a href="http://www.rhapsody.com">Rhapsody</a> and build a few choice playlists.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/18">How long will it take to guess your password?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-03-04T21:19:23-05:00" pubdate data-updated="true">Mar 4<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I came across Bruce Schneier&#8217;s article on <a href="http://www.schneier.com/blog/archives/2007/01/choosing_secure.html">choosing secure passwords</a> some time ago but just reread it again.  I find the description of the efforts that <a href="http://accessdata.com/">AccessData&#8217;s</a> PRTK goes through to guess a password fascinating.  Once of the things they teach in security classes is that brute force attacks will always work; the only protection is in the amount of time it will take to succeed.  Throw a little intelligence into the guessing and that amount of time can get very short!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/16">My latest toy - the Nokia N800</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-25T23:41:35-05:00" pubdate data-updated="true">Feb 25<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I picked up a new toy for myself for this last holiday season, a <a href="http://www.nokia.com/n800">Nokia N800 Internet Tablet</a>.  It&#8217;s very cool.  I bought it mainly to listen to streaming media and to keep up with e-mail and RSS feeds when not at my computer &#8211; which so far means lying in bed.</p>
+
+<p>The experience has been pretty good so far.  I&#8217;ve moved all off my personal e-mail and feed reading to Google services, which offer plain XHTML interfaces if you know how to find them, and they work really well.  Actually Google calendar doesn&#8217;t work at all, which is a bummer, but I&#8217;ll see if I can find a N800 iCal reader and subscribe to my calendars there.</p>
+
+<p>Media has had its ups and downs,
+but I&#8217;ll have to write about that
+another time, too tired now.  This
+post will be a test of using the tablet
+for blogging &#8211; the whole  thing has
+been written using the on-screen
+keyboard.  It will take some getting
+used too, but it&#8217;s quite workable so
+far.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/node/15">Upgraded to Drupal 5.1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-25T22:45:05-05:00" pubdate data-updated="true">Feb 25<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>As part one of attempting to get back to blogging at this site I&#8217;ve upgraded it from Drupal 4.7 to Drupal 5.</p>
+
+<p>The old theme was quite ugly so I switched the system default to Drupal&#8217;s Garland theme and changed the colors to that sort of mix of sunburn and suntan than <strong>Lentigo</strong> suggests!  This looks better than the themes I&#8217;ve come up with in the past so I think I&#8217;ll stick with it.</p>
+
+<p>This will have to be it for my first update in almost a year as my battery &#8211; both computer and body &#8211; are about to run out.</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page/2/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -78,7 +512,56 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/node/25">Fix ssh-agent after installing Apple&#8217;s 2008-005 security update</a>
+      </li>
+    
+      <li class="post">
+        <a href="/node/24">Hmm, this place is dead&#8230;</a>
+      </li>
+    
+      <li class="post">
+        <a href="/node/23">Holiday Shopping Almost Done</a>
+      </li>
+    
+      <li class="post">
+        <a href="/node/22">Ahh, Back&#8230;</a>
+      </li>
+    
+      <li class="post">
+        <a href="/node/21">Summer language studies in Arlington</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/spottybones">@spottybones</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'spottybones',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

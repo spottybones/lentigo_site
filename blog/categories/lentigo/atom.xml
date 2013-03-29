@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: lentigo | Lentigo]]></title>
+  <link href="http://spottybones.github.com/lentigo_site/blog/categories/lentigo/atom.xml" rel="self"/>
+  <link href="http://spottybones.github.com/lentigo_site/"/>
+  <updated>2013-03-29T13:56:09-04:00</updated>
+  <id>http://spottybones.github.com/lentigo_site/</id>
+  <author>
+    <name><![CDATA[Lentigo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My latest toy - the Nokia N800]]></title>
+    <link href="http://spottybones.github.com/lentigo_site/node/16"/>
+    <updated>2007-02-25T23:41:35-05:00</updated>
+    <id>http://spottybones.github.com/lentigo_site/node/my-latest-toy-the-nokia-n800</id>
+    <content type="html"><![CDATA[<p>I picked up a new toy for myself for this last holiday season, a <a href="http://www.nokia.com/n800">Nokia N800 Internet Tablet</a>.  It's very cool.  I bought it mainly to listen to streaming media and to keep up with e-mail and RSS feeds when not at my computer -- which so far means lying in bed.</p>
+
+<p>The experience has been pretty good so far.  I've moved all off my personal e-mail and feed reading to Google services, which offer plain XHTML interfaces if you know how to find them, and they work really well.  Actually Google calendar doesn't work at all, which is a bummer, but I'll see if I can find a N800 iCal reader and subscribe to my calendars there.</p>
+
+<p>Media has had its ups and downs,
+but I'll have to write about that
+another time, too tired now.  This
+post will be a test of using the tablet
+for blogging -- the whole  thing has
+been written using the on-screen
+keyboard.  It will take some getting
+used too, but it's quite workable so
+far.</p>
+]]></content>
+  </entry>
+  
+</feed>
