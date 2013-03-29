@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Ahh, Back..."
+date: 2007-12-03 00:32:20 -0400
+comments: true
+categories: 
+author: Scott Burns
+permalink: /node/22
+---
+
+And newly moved from my old MediaTemple GS back to my trusty [Linode][].  I like the Linode much better.  Now to get to work on a theme for this site so these bi-annual posts will look nicer.
+
+[Linode]:http://www.linode.com

@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Testing Ecto"
+date: 2005-08-14 9:08
+comments: true
+categories: 
+permalink: /node/4
+---
+
+This is a test entry made with Ecto. I’m attaching a picture of the family taken toward the end of our recent OBX vacation to see how it posts.
