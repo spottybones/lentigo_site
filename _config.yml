@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://spottybones.github.com/lentigo_site
+url: http://lentigo.net
 title: Lentigo
 subtitle: Hope and Scott on the Web
 author: Lentigo
@@ -59,7 +59,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 
 # Github repositories
 github_user: spottybones
-github_repo_count: 0
+github_repo_count: 1
 github_show_profile_link: true
 github_skip_forks: true
 
@@ -89,7 +89,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-39726805-1
 
 # Facebook Like
 facebook_like: false
