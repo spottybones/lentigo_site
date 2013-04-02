@@ -11,6 +11,8 @@ author: Scott Burns
 I've spent the last several days converting this site from [Drupal][drupal] to
 [Octopress][octopress].  I've done this for several reasons:
 
+<!--more-->
+
 1. The old site was running on Drupal 5 and I wasn't looking forward to having
 to upgrade it to Drupal 6, then Drupal 7, just to keep it current.
 2. Since the frequency of posting aren't exactly high there's no need to keep
