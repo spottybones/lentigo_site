@@ -8,4 +8,6 @@ author: Scott Burns
 permalink: /node/5
 ---
 
+{% img https://googledrive.com/host/0B4x9YwEM4iSqVm41NDdFMGlUYUk/P8050073-1.jpg Hope, Aaron and Jeffrey on the beach in KDH, Summer 2005 %}
+
 Here's a picture of Hope, Aaron and Jeffrey on the beach in Kill Devil Hills, NC. This was taken on our last beach day of our 2005 summer vacation. ...s.

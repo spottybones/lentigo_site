@@ -10,4 +10,4 @@ permalink: /node/12
 
 We put together the following altar to celebrate family and friends passed...
 
-<img src="http://www.lentigo.net/files/2005-dia-de-los-muertos.jpg" width="500" height="375" align="middle" alt="Our Dia de los Muertos Altar" title="Our Dia de los Muertos Altar" />
+{% img https://googledrive.com/host/0B4x9YwEM4iSqVm41NDdFMGlUYUk/2005-dia-de-los-muertos.jpg Our Dia de los Muertos Altar %}

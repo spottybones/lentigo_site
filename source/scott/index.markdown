@@ -8,7 +8,7 @@ footer: false
 author: Scott Burns
 ---
 
-<img style="float: left; width: 250px; height: 250px; margin: 10px;" src="http://www.lentigo.net/files/scott-hawaii-2004.jpg" alt="Scott Burns" title="Scott Burns" />
+{% img right https://googledrive.com/host/0B4x9YwEM4iSqVm41NDdFMGlUYUk/scott-hawaii-2004.jpg Scott Burns %}
 
 I'm Scott Burns, one of the authors of this site.  I'm a small-shop IT
 manager, system administrator and web developer.
