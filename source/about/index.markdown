@@ -10,4 +10,4 @@ footer: false
 We are Hope O'Keeffe and [Scott Burns](/scott).  We're married and live in a
 renovated bungalow in Arlington, Virginia.  We both work in Washington, DC;
 Hope for the [Library of Congress](http://www.loc.gov) and Scott for
-[edLeaders](http://www.edleaders.org).
+[Center City Public Charter Schools](http://www.centercitypcs.org).
