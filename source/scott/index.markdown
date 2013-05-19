@@ -14,4 +14,4 @@ I'm Scott Burns, one of the authors of this site.  I'm a small-shop IT
 manager, system administrator and web developer.
 
 I'm married to Hope O'Keeffe, who you will also see around here, and we live
-with kids, cats and fish in Arlington, VA.
+with kids, cats, and fish in Arlington, VA.
